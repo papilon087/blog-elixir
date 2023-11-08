@@ -5,7 +5,7 @@ defmodule Blog.Repo.Migrations.AddUsersTable do
     create table(:users) do
       add :username, :string
       add :email, :string
-      add :agr, :integer
+      add :age, :integer
 
       timestamps()
     end
